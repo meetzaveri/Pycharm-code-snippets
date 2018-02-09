@@ -1,12 +1,12 @@
 ## Note that this is for subset containing only two numbers that eqaul to sum
-numlist = [3,35,4,12,5,8]
+numlist = [3,35,8,12,6,4]
 sum = 9
 someother = []
 isthere=[]
 
 def doverification():
     for i in numlist:
-        if(i<9):
+        if(i<sum):
             someother.append(i)
         else:
             print('number <9')
@@ -32,3 +32,4 @@ def doappending():
 
 doappending()
 print(isthere)
+## outputs [6,3]
